@@ -1,5 +1,0 @@
-User-agent: *
-Disallow : /d/
-Disallow : /analog/
-Disallow : /CUE/
-Disallow : /html/

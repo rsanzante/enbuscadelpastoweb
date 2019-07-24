@@ -1,0 +1,311 @@
+
+
+/*  <<<<<<<<<<<<<<< HOJA DE ESTILOS  CSS  PARA  WEB  JRA  >>>>>>>>>>>>>  */
+
+
+/* ----------------------------BODY------------------------------- */
+
+
+body {
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	/*text-align: center;*/
+	background: #0b0b0b; 
+	background-image: url("images/fondo-grade-alfa2.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #ffffff;
+	font-family: Century Gothic, sans-serif;
+	letter-spacing: 0.1em;
+	line-height:1.5em;
+	font-size: 12pt;
+	min-width: 500px;
+	text-align: justify;
+	/*overflow: auto;*/
+	/*margin: 0px auto;*/
+}
+
+
+
+a	{	color: #ffffff;
+		text-decoration: none;
+	}
+a:hover { font-weight: bold;}
+
+
+
+
+header { 	display: block;
+			z-index: 0;
+			top: 10px;
+			left: 20px;
+			width: inherit;
+			height: auto;
+			position: relative;
+			border: none;
+			text-align: left;
+			margin: 0px;
+		}
+		
+		
+
+
+header img 	{	/*display: none;*/
+				width: 400px;
+								}
+				
+
+#menu {	z-index: 1;
+		/*display: block;*/
+		position: relative;
+		top: 20px; 
+		left: 100px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		overflow: auto;
+		
+		}
+		
+#menu p { 	width: 75%;
+			min-width: 480px;
+
+}
+		
+#menu img  {	
+			width: 50px;
+			height: auto;
+			display: block; 
+			margin-bottom: 20px;
+			} 
+
+			
+.button  {	/*display: block;*/
+			text-align: left;
+			padding: 5px;
+			/*float: left;*/
+			
+			
+		}
+
+				
+
+#lang	{	background-color: rgba(255,255,255,0.9);
+			font-family: Century Gothic, sans-serif;
+			letter-spacing: 0.3em;
+			font-size: 11pt;
+			text-align: right;
+			width: auto;
+			position: fixed;
+			right: 0px;
+			top: 10px;
+			padding: 1px 13px 1px 3px;
+			display: none;
+		}			
+			
+#lang a	{	color: #222222;
+			text-decoration: none;
+		}
+
+#lang a:link	{	color: #222222;
+					text-decoration: none;	}
+		
+#lang a:visited	{	color: #222222;
+					text-decoration: none;	}
+					
+#lang a:hover	{	color: #ff0000;
+					text-decoration: none;	}
+					
+#lang a:active	{	color: #ff0000;
+					text-decoration: underline;	}
+
+
+
+.cont {	color: 	#ff0000;
+		
+		font-family: verdana, sans-serif;
+		font-size: 12pt;
+		font-weight: bold;
+		letter-spacing: 3pt;
+	}				
+	
+.cont2 { font-family: georgia, serif;
+		font-size: 12pt;
+		
+		letter-spacing: 3pt;
+	}				
+	
+
+.znn 	{ 	background-color: rgba(255,255,255,0.8);
+			width: 60%;
+			font-family: verdana, sans-serif; 
+			margin: auto auto 10px auto;
+			/*margin-left: 25px;
+			margin-right: 25px;*/
+			padding: 10px;
+			overflow: auto;
+		}
+		
+.znn a { color: #ff0000; 
+		font-weight: bold;}
+		
+.znn a:link	{	
+					text-decoration: none;	}
+		
+.znn a:visited	{	
+					text-decoration: none;	}
+					
+.znn a:hover	{	
+					text-decoration: underline;	}
+					
+.znn a:active	{	color: #dddddd;
+					text-decoration: underline;	}
+		
+
+	
+/*------------------------PAGES--------------------*/
+
+
+#header-p	{	display: block;
+			top: 30px;
+			left: 0px;
+			width: inherit;
+			height: auto;
+			position: fixed;
+			background: #222222;
+			border: none;
+			text-align: center;
+			margin: 0px auto;
+			z-index: 5;
+			overflow: invisible;
+		}
+
+#header-p a	{	width: inherit;	}
+#header-p a:hover {	border-bottom: 2px solid #ff0000;	}
+		
+#header-p a img 	{	width: 45%;
+				min-width: 400px;
+				max-width: 1000px;
+				padding: 5px 0px 2px 0px;
+				}
+
+
+
+
+
+h1	{	color: #dddddd;
+		margin: 5px auto;	}
+
+h1 a	{	color: #dddddd;	}
+
+
+.hr	{ 	background: #dddddd;	
+		display: block;
+		height: 5px;
+		width: 100%;	 
+	}
+
+#nav	{	text-align: left;
+			width: 80%;	
+			left: 10%;
+			height: 70%;
+			top: 200px;
+			position: fixed;
+			overflow-y: auto;
+			display: block;
+		}
+
+#nav a img.quad	{	width: 15%;	
+					min-width: 120px;
+					max-width: 300px;
+					margin: 30px 5px 10px 5px;
+			}
+
+#nav a img.quad-bk	{	display: none;
+						width: 15%;	
+						min-width: 120px;
+						max-width: 300px;
+						margin: 0px 5px 10px 5px;}
+			
+#nav a:hover img.quad		{	display: none;
+						}
+#nav a:hover img.quad-bk		{	display: inline;	}
+
+
+
+.sub-t	{	font-size: 14pt;
+			color: #dddddd;
+			font-family: verdana, sans-serif;
+			letter-spacing: 5pt;
+			padding: 2px 0px 5px 0px;
+		}
+		
+.hr2	{ 	background: #dddddd;	
+		height: 3px;
+		width: 100%;	 
+	}
+	
+
+	
+	
+#page {		display: block;
+			top: 220px;
+			left: 20%;
+			width: 60%;
+			height: 70%;
+			position: fixed;
+			background: rgba(255,255,255,0.8);
+			border: none;
+			text-align: center;
+			z-index: 2;
+			overflow: auto;
+		}	
+
+.h3		{	/*display: inline;*/
+			font-weight: bold;
+			font-size: 16pt;
+			margin-bottom: 10px;
+			color: #222222;	}
+		
+.entry	{	display: inline;
+			width: auto;
+			font-size: 12pt;
+			font-family: verdana, sans-serif;
+			text-align: left;
+			height: 300px;
+			padding: 15px 10px 15px 10px;
+			}
+		
+.content	{	display: block;
+				/*position: relative;*/
+				width: auto;				
+				overflow: auto;	
+				/*width: 90%;*/
+				height: auto;
+				margin: 0px 10px;
+				}		
+		
+
+.entry img	{	float: left;
+				margin: 5px 10px 5px 5px;	
+				width: 30%;
+				min-width: 100px;
+				max-width: 200px;
+				max-height: 300px;
+				border: 1px solid #dddddd;
+			}
+
+.entry a	{	color: #ff0000;
+			font-weight: bold;	
+			}
+
+.entry a:hover	{	text-decoration: underline;		}
+
+.entry p	{	color: #000000;
+			margin: 5px 15px 5px 15px;
+			padding: 0px 10px;
+			font-family: verdana, sans-serif;
+			line-height: 1.5em;
+			
+		}
