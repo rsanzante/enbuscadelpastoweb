@@ -388,7 +388,7 @@
     $main._setBG = function() {
 
       var min = 0;
-      var max = 5;
+      var max = 14;
 
       var pics = {
         0: '27% 47%',
@@ -397,13 +397,22 @@
         3: '67% 12%',
         4: '21% 12%',
         5: '55% 87%',
+        6: '50% 0%',
+        7: '7% 42%',
+        8: '20% 0%',
+        9: '0% 26%',
+        10: '70% 15%',
+        11: '65% 43%',
+        12: '0% 0%',
+        13: '29% 44%',
+        14: '78% 50%',
       };
 
       rndIndex = Math.floor(Math.random() * (max - min + 1)) + min;
-
+      fileName = "images/bg-" + (rndIndex > 9 ? "" : "0") + rndIndex + '.jpg';
       var styleElem = document.head.appendChild(document.createElement("style"));
 
-      styleElem.innerHTML = '#bg:after {background-image: url("images/bg-0' + rndIndex + '.jpg"); background-position: ' + pics[rndIndex] + ';}';
+      styleElem.innerHTML = '#bg:after {background-image: url("' + fileName + '"); background-position: ' + pics[rndIndex] + ';}';
     }
 
 
