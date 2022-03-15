@@ -37,6 +37,11 @@ ol, ul {
 	list-style: none;
 }
 
+.vimeo {
+	width: 100%;
+	margin-top: -50px;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -155,6 +160,7 @@ input, select, textarea {
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
+		
 	}
 
 		a:hover {
@@ -584,6 +590,7 @@ input, select, textarea {
 		border: solid 1px #ffffff;
 		margin-bottom: 2rem;
 		padding: 1.5em;
+		
 	}
 
 		.box > :last-child,
@@ -636,6 +643,10 @@ input, select, textarea {
 		}
 
 /* Image */
+
+.fotograma {
+	width: 20%;
+}
 
 	.image {
 		border-radius: 4px;
@@ -734,7 +745,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: 1rem 0 2rem 0;
 		padding-left: 1em;
 	}
 
@@ -770,6 +781,7 @@ input, select, textarea {
 		dl dd {
 			margin-left: 2rem;
 		}
+
 
 /* Actions */
 
