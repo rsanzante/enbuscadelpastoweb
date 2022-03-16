@@ -387,8 +387,8 @@
 
     $main._setBG = function() {
 
-      var min = 0;
-      var max = 14;
+      var min = 15;
+      var max = 15;
 
       var pics = {
         0: '27% 47%',
@@ -406,6 +406,7 @@
         12: '0% 0%',
         13: '29% 44%',
         14: '78% 50%',
+        15: '50% 50%',
       };
 
       rndIndex = Math.floor(Math.random() * (max - min + 1)) + min;
