@@ -387,7 +387,7 @@
 
     $main._setBG = function() {
 
-      var min = 15;
+      var min = 0;
       var max = 15;
 
       var pics = {
